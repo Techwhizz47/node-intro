@@ -1,0 +1,44 @@
+NPM [Node Package Manager]
+
+npm init -- initialize npm to our directory
+            must initialize first to create a node server
+
+/********************************
+PS C:\Users\ALLAN\Documents\web Dev\Node\Node Package Manager> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (node-package-manager)
+********************************/
+press enter 
+
+/****************************************************************
+version: (1.0.0)
+****************************************************************/
+
+press enter
+
+add a description: "str"
+
+entry point is where the website will be accessed from
+
+Server will be created and a package.json will be created
+
+common json
+require()
+
+ECMA Version
+import
+
+files must end in .mjs(module javascript) to convert to ECMA
+or 
+to keep the index.js you can change the type in the json object to module
+ie: type: 'module'
+
